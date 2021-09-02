@@ -8,6 +8,7 @@
     "build": "parcel build src/index.html --dist-dir ./dist"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-rc.0"
+    "parcel": "^2.0.0-rc.0",
+    "@parcel/transformer-image": "1.12.3"
   }
 }
