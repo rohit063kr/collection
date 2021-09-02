@@ -91,3 +91,8 @@ body {
   opacity: 1;
   bottom: 0;
 }
+
+.items:hover > img {
+  opacity: 0.5;
+  filter: brightness(1.3);
+}
