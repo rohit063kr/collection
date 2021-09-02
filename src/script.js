@@ -1,5 +1,5 @@
-import img1 from './img/1.png';
-import img2 from './img/2.png';
+import img1 from 'url:./img/1.png';
+import img2 from 'url:./img/2.png';
 
 class app {
   _parentElement = document.querySelector('.container');
