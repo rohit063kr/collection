@@ -1,5 +1,6 @@
 import img1 from 'url:./img/1.PNG';
 import img2 from 'url:./img/2.PNG';
+import img3 from 'url:./img/3.png';
 
 class app {
   _parentElement = document.querySelector('.container');
@@ -14,6 +15,11 @@ class app {
       source: 'https://rohit-movie-finder.netlify.app/',
       title: 'Movie-finder',
     },
+    {
+      img: `${img3}`,
+      source: 'https://rohit-memory-game.netlify.app/',
+      title: 'Memory-game',
+     },
   ];
 
   constructor() {
