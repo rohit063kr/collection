@@ -1,6 +1,6 @@
 import img1 from 'url:./img/1.PNG';
 import img2 from 'url:./img/2.PNG';
-import img3 from 'url:./img/3.png';
+import img3 from 'url:./img/3.PNG';
 
 class app {
   _parentElement = document.querySelector('.container');
