@@ -3,6 +3,7 @@ import img2 from 'url:./img/2.PNG';
 import img3 from 'url:./img/3.PNG';
 import img4 from 'url:./img/4.PNG';
 import img5 from 'url:./img/5.PNG';
+import img6 from 'url:./img/6.png';
 
 class app {
   _parentElement = document.querySelector('.container');
@@ -26,10 +27,16 @@ class app {
       img: `${img4}`,
       source: 'https://determined-swartz-bac81f.netlify.app',
       title: 'Live markdown editor',
-     },{
+     },
+     {
       img: `${img5}`,
       source: 'https://upbeat-jackson-2079cd.netlify.app/',
       title: 'Whack a mole game',
+     },
+     {
+      img: `${img6}`,
+      source: 'https://cranky-williams-ddebd5.netlify.app/',
+      title: 'Christmas countdown',
      },
   ];
 
