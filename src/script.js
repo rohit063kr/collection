@@ -4,6 +4,7 @@ import img3 from 'url:./img/3.PNG';
 import img4 from 'url:./img/4.PNG';
 import img5 from 'url:./img/5.PNG';
 import img6 from 'url:./img/6.png';
+import img7 from 'url:./img/7.png';
 
 class app {
   _parentElement = document.querySelector('.container');
@@ -37,6 +38,11 @@ class app {
       img: `${img6}`,
       source: 'https://cranky-williams-ddebd5.netlify.app/',
       title: 'Christmas countdown',
+     },
+    {
+      img: `${img7}`,
+      source: 'https://awesome-snyder-bb7ea8.netlify.app',
+      title: 'Picture in picture',
      },
   ];
 
